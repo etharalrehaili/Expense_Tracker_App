@@ -23,7 +23,6 @@ import com.example.expense_tracking_project.screens.expenseTracking.presentation
 import com.example.expense_tracking_project.ui.theme.Expense_Tracking_ProjectTheme
 
 class MainActivity : ComponentActivity() {
-    //    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

@@ -32,9 +32,6 @@ import com.example.expense_tracking_project.navigation.Screen
 import com.example.expense_tracking_project.screens.expenseTracking.presentation.vmModels.TransactionViewModel
 import java.util.Date
 
-
-
-
 @Composable
 fun TransactionScreen(navController: NavHostController, isDarkTheme: Boolean) {
     val viewModel: TransactionViewModel = viewModel()

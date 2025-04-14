@@ -6,7 +6,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
-import com.example.expense_tracking_project.screens.expenseTracking.presentation.component.CustomBottomBar
 
 @Composable
 fun StatisticsScreen(navController: NavController, modifier: Modifier = Modifier) {

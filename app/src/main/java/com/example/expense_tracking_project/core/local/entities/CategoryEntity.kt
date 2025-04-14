@@ -1,6 +1,5 @@
 package com.example.expense_tracking_project.core.local.entities
 
-
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index

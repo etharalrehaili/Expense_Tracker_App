@@ -11,7 +11,8 @@ import java.util.Date
 )
 data class Transaction(
     @PrimaryKey(autoGenerate = true)
-    val transaction_id: Int = 0,
+    val transaction_id: Int = 0, // change it
+    val transactionId: Int = 0,
 
  //   val categoryId: Int,
     val categoryId: Int? = null, // make FK after screen add category
@@ -19,7 +20,9 @@ data class Transaction(
     val date: Date,
     val note: String,
     val isDeleted: Boolean = false,
-    val created_at: Date,
-    val updated_at: Date
+    val created_at: Date, // change it
+    val createdAt: Date,
+    val updated_at: Date, // change it
+    val updatedAt: Date
 )
 

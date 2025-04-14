@@ -5,7 +5,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.expense_tracking_project.screens.authentication.data.model.AuthState
 import com.google.firebase.auth.FirebaseAuth
-//import com.google.firebase.crashlytics.buildtools.reloc.org.apache.http.auth.AuthState
 
 class SignInViewModel : ViewModel() {
 

@@ -17,7 +17,6 @@ import com.example.expense_tracking_project.navigation.Screen
 import com.example.expense_tracking_project.screens.authentication.data.model.AuthState
 import com.example.expense_tracking_project.screens.authentication.presentation.component.DesignScreen
 import com.example.expense_tracking_project.screens.authentication.presentation.component.FormField
-//import com.example.expense_tracking_project.data.model.AuthState
 import com.example.expense_tracking_project.screens.authentication.presentation.vmModels.SignInViewModel
 import com.example.expense_tracking_project.screens.authentication.presentation.vmModels.ValidationInputViewModel
 

@@ -1,7 +1,5 @@
 package com.example.expense_tracking_project.navigation
 
-import android.os.Build
-import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -71,24 +69,20 @@ fun AppNavigation(
             )
         }
 
-
         composable(Screen.AddExpense.route) {
-            AddExpenseScreen(navController,)
+            AddExpenseScreen(navController)
         }
+
         composable(Screen.Profile.route) {
-            ProfileScreen(navController )
+            ProfileScreen(navController)
         }
+
         composable(Screen.Edit.route) {
             EditScreen(navController)
         }
+
         composable(Screen.Statistics.route) {
             StatisticsScreen(navController)
         }
-
-
-
-
     }
 }
-
-
